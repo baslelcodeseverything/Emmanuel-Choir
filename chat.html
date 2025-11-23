@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><title>Chat</title><link rel="stylesheet" href="/css/style.css"></head>
+<body><h1>Choir Chat</h1>
+<div id="status"></div>
+<div id="chatBox" style="display:none;">
+<div id="messages" style="height:300px; overflow:auto; border:1px solid #ccc;"></div>
+<form id="msgForm"><input id="msgInp"><button>Send</button></form>
+<button id="logoutBtn">Logout</button>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>
+</body></html>
